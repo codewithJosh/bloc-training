@@ -1,0 +1,28 @@
+name: company_repository
+description: 'Dart package package which manage the company.'
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  freezed_annotation: ^2.4.1
+  http: ^1.2.2
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.9
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
